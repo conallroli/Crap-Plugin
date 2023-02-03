@@ -3,6 +3,8 @@ project(CRAP_PLUGIN VERSION 0.0.1)
 
 set(CMAKE_CXX_STANDARD 17)
 
+# build your own JUCE following these instructions, change the path below accordingly
+# https://github.com/juce-framework/JUCE/blob/master/docs/CMake%20API.md#using-find_package
 set(CMAKE_PREFIX_PATH "/Users/conallmcginty/programming/c++/packages/JUCE")
 find_package(JUCE CONFIG REQUIRED)
 
